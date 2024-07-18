@@ -84,29 +84,31 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+        gap: 2px;
         list-style: none;
     }
 
     .cloud1 {
         display: flex;
-        justify-content: center;
+        justify-content: end;
+        height: 30px;
     }
 
     .cloud2 {
         display: flex;
-        justify-content: center;
+        justify-content: start;
+        height: 30px;
     }
 
     .mountain {
         display: flex;
         justify-content: center;
-        height: 280px;
+        height: 180px;
     }
 
 }
 
-@media (min-width: 481px) and (max-width: 766px){
+@media (min-width: 481px) and (max-width: 768px){
     h1 {
         font-family: "Sacramento", cursive;
         font-weight: 700;
@@ -144,7 +146,7 @@ h2 {
     }
 }
 
-@media (min-width: 767px) and (max-width: 1200px){
+@media (min-width: 769px) and (max-width: 1200px){
     h1 {
         font-family: "Sacramento", cursive;
         font-weight: 700;
