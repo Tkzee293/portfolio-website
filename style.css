@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+}
+
+/* homepage styling */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    list-style: none;
+}
+
+.homepage {
+    padding-top: 10px;
+}
+
+.container {
+    background-color: #e4f9f5;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+li a {
+    color: #66bfbf;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.cloud1 {
+    display: flex;
+    justify-content: end;
+    padding-top: 3%;
+}
+
+.cloud2 {
+    display: flex;
+    justify-content: start;
+}
+
+.mountain {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+        color: #66bfbf;
+        display: flex;
+        justify-content: center;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+@media (max-width: 480px) and (min-width: 320px){
+    h1 {
+        font-family: "Sacramento", cursive;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        list-style: none;
+    }
+
+    .cloud1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cloud2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mountain {
+        display: flex;
+        justify-content: center;
+        height: 280px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 766px){
+    h1 {
+        font-family: "Sacramento", cursive;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+    }
+
+    .cloud1 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .cloud2 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .mountain {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px){
+    h1 {
+        font-family: "Sacramento", cursive;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        list-style: none;
+    }
+
+    .cloud1 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .cloud2 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .mountain {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* page 2 : About Me */
