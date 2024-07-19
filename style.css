@@ -135,13 +135,6 @@ h2 {
     }
 
     h2 {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-        
         font-size: 1.5rem;
         margin-top: 0;
     }
@@ -153,15 +146,6 @@ h2 {
         list-style: none;
     }
 
-    .navigation li a {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-    }
-    
     .cloud1 {
         display: flex;
         justify-content: end;
