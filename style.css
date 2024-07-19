@@ -82,9 +82,8 @@ h2 {
 
     .navigation ul {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2px;
+        justify-content: end;
+        gap: 5px;
         list-style: none;
     }
 
