@@ -146,6 +146,10 @@ h2 {
         list-style: none;
     }
 
+    .navigation li a {
+        font-size: 12px;
+    }
+
     .cloud1 {
         display: flex;
         justify-content: end;
@@ -183,7 +187,7 @@ h2 {
         gap: 80px;
         list-style: none;
     }
-
+    
     .cloud1 {
         display: flex;
         justify-content: end;
