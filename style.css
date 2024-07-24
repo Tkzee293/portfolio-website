@@ -15,7 +15,7 @@ ul {
     list-style: none;
 }
 
-.homepage {
+#home {
     padding-top: 10px;
 }
 
@@ -32,7 +32,7 @@ ul {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    
+
     color: #66bfbf;
     text-decoration: none;
     font-size: 20px;
@@ -69,16 +69,136 @@ h1 {
 }
 
 h2 {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-    
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     font-size: 2.5rem;
     margin-top: 0;
 }
+
+/* page 2 : About Me */
+
+.profile {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 3%;
+}
+
+.bio {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.png-img {
+    height: 150px;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 50px;
+    margin-top: 3%;
+}
+
+.header {
+    grid-column: 1/3;
+    margin-bottom: 0;
+}
+
+.html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.css {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.javascript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.AI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+#skills div p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    width: 80%;
+}
+
+.item:hover {
+    background-color: #e4f9f5;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    margin-top: 3%;
+}
+
+.contact-button {
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    background-color: #66bfbf;
+}
+
+.contact-button:hover {
+    background-color: #e4f9f5;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #e4f9f5;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footer img {
+    height: 25px;
+}
+
+
+
+/* media query responsiveness - mobile*/
 
 @media (max-width: 480px) and (min-width: 320px){
     h1 {
@@ -97,7 +217,7 @@ h2 {
     .navigation ul {
         display: flex;
         justify-content: end;
-        gap: 5px;
+        gap: 10px;
         list-style: none;
     }
 
@@ -123,7 +243,38 @@ h2 {
         height: 180px;
     }
 
+    #skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        height: 100px;
+        width: 80px;
+    }
+
+    .bio {
+        font-size: small;
+    }
+
+    #skills p {
+        font-size: small;
+    }
+
+    .contact-button {
+        border-radius: 10px;
+        width: 40%;
+        background-color: #66bfbf;
+    }
+
+    .contact-button:hover {
+        background-color: #e4f9f5;
+    }
+
 }
+
+
+/* media query responsiveness - tablet/ipad */
 
 @media (min-width: 481px) and (max-width: 768px){
     h1 {
@@ -146,10 +297,6 @@ h2 {
         list-style: none;
     }
 
-    .navigation li a {
-        font-size: 12px;
-    }
-
     .cloud1 {
         display: flex;
         justify-content: end;
@@ -165,7 +312,31 @@ h2 {
         justify-content: center;
         height: 300px;
     }
+
+    .contact-button {
+        border-radius: 10px;
+        width: 30%;
+        background-color: #66bfbf;
+    }
+
+    .contact-button:hover {
+        background-color: #e4f9f5;
+    }
+
+    .navigation li a {
+        font-size: 15px;
+    }
+
+    .bio {
+        font-size: 90%;
+    }
+
+    #skills p {
+        font-size: 90%;
+    }
 }
+
+/* media query responsiveness - laptop/desktop/tv */
 
 @media (min-width: 769px) and (max-width: 1200px){
     h1 {
@@ -187,7 +358,7 @@ h2 {
         gap: 80px;
         list-style: none;
     }
-    
+
     .cloud1 {
         display: flex;
         justify-content: end;
@@ -203,5 +374,3 @@ h2 {
         justify-content: center;
     }
 }
-
-/* page 2 : About Me */
