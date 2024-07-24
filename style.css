@@ -8,12 +8,12 @@ ul {
     padding: 0;
 }
 
-hr {
+/* hr {
     border: dotted #d9eded 6px;
     border-bottom: none;
     width: 4%;
     margin: 50px auto;
-}
+}* /
 
 .navigation ul {
     display: flex;
